@@ -1,7 +1,9 @@
 class Api::ActivitiesController < ApplicationController
   
   def index
-    @activities = Activity.includes(:user).all
+    @activities = Activity.all
+    render :index;
+      
   end
 
   def show
@@ -10,12 +12,12 @@ class Api::ActivitiesController < ApplicationController
 
   def create
     @activity = Activity.new(activity_params)
-    
     if @activity.save
       render :show
     else
       render json: @activity.errors.full_messages, status: 401
     end
+  
   end
 
   def update
@@ -30,8 +32,9 @@ class Api::ActivitiesController < ApplicationController
 
   def destroy
     @activity = Activity.find(params[:id])
-
-    if @activity.destroy
+  
+    if @activity
+      @activity.destroy
       render :show
     else
       render json: @activity.errors.full_messages, status: 422
