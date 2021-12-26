@@ -17,6 +17,7 @@ class Api::ActivitiesController < ApplicationController
     else
       render json: @activity.errors.full_messages, status: 401
     end
+
   
   end
 
@@ -44,7 +45,7 @@ class Api::ActivitiesController < ApplicationController
   private
 
   def activity_params 
-    params.require(:activity).permit(:id, :user_id, :activity_type, :distance, :time, :description, :heartrate, :duration, :equipment_type)
+    params.require(:activity).permit(:id, :user_id, :activity_type, :distance, :date, :time, :description, :heartrate, :duration, :equipment_type, :calories)
   end
 
 end
