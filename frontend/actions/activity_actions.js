@@ -26,11 +26,11 @@ export const receiveComment = comment => ({
     type: RECEIVE_COMMENT, 
     comment
 })
-export const receiveLike = like => ({
-    type: RECEIVE_LIKE, 
-    like
+// export const receiveLike = like => ({
+//     type: RECEIVE_LIKE, 
+//     like
 
-})
+// })
 
 
 
@@ -72,28 +72,28 @@ export const deleteActivity = (activityId) => dispatch => (
 );
 
 
-export const createAComment = (comment) => dispatch => {
-    dispatch(receiveComment(comment))
-    const newComment = {
-        person_id: comment.userId,
-        activity_id: comment.activityId,
-        body: comment.body
-    }
-    return APIUtil.createComment(newComment).then(comment =>  console.log(comment)
-    )
-}
+// export const createAComment = (comment) => dispatch => {
+//     dispatch(receiveComment(comment))
+//     const newComment = {
+//         person_id: comment.userId,
+//         activity_id: comment.activityId,
+//         body: comment.body
+//     }
+//     return APIUtil.createComment(newComment).then(comment =>  console.log(comment)
+//     )
+// }
 
-export const createALike = (like) => dispatch => {
-    dispatch(receiveLike(like))
-    const newLike = {
-        user_id: like.userId,
-        activity_id: like.activityId,
-        countlwe: like.count
+// export const createALike = (like) => dispatch => {
+//     dispatch(receiveLike(like))
+//     const newLike = {
+//         user_id: like.userId,
+//         activity_id: like.activityId,
+//         countlwe: like.count
 
-    }
-    return APIUtil.createLike(newLike).then(newLike =>  console.log("LIKE", newLike)
-    )
-}
+//     }
+//     return APIUtil.createLike(newLike).then(newLike =>  console.log("LIKE", newLike)
+//     )
+// }
 
 
 

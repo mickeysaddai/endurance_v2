@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import ActivityIndex from './activity_index';
-import { fetchActivities, createAComment, createALike } from "../../actions/activity_actions";
+import { fetchActivities } from "../../actions/activity_actions";
 
 
 const mapStateToProps = state => {
@@ -17,7 +17,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => ({
     fetchActivities: () => dispatch(fetchActivities()),
-    createComment: (comment) => dispatch(createAComment(comment)),
-    createLike : (like) => dispatch(createALike(like))
+    // createComment: (comment) => dispatch(createAComment(comment)),
+    // createLike : (like) => dispatch(createALike(like))
 })
 export default connect(mapStateToProps, mapDispatchToProps)(ActivityIndex)

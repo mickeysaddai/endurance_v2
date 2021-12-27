@@ -23,3 +23,16 @@ const App = () => (
 );
 
 export default App;
+
+
+
+
+// const mapDispatchToProps = (dispatch) => {
+//     return {
+//          fetchActivities: () => dispatch(fetchActivities()),
+//     }
+
+// }
+
+
+// export default connect(null, mapDispatchToProps)(App);
