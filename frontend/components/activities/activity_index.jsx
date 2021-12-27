@@ -7,10 +7,12 @@ class ActivityIndex extends React.Component{
 
     }
     render(){
+        
         const {activities} = this.props;
         console.log(activities)
         return (
             <div className="columns">
+                <h1>Endurance</h1>
                 <div className="column">
 
                 </div>

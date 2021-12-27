@@ -14,7 +14,7 @@ const App = () => (
             <h1>Endurance</h1>
         </header>
         <Switch>
-            <Route exact path='/' component={HomePage}></Route>
+            <Route exact path='/' component={ActivityIndexContainer}></Route>
             {/* <Route exact path='/' component={ActivityIndexContainer}></Route> */}
             <AuthRoute exact path='/login' component={LoginFormContainer} />
             <AuthRoute exact path='/signup' component={SignUpFormContainer} />
