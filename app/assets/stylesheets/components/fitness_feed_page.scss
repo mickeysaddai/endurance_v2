@@ -1,0 +1,230 @@
+p {
+    font-size: 16px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.margined{
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+.feed{
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+strong{
+    color: #1596D2 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold !important;
+}
+
+h1{
+    font-family:sans-serif;
+    font-size: 23px !important;
+    font-weight: bold !important;
+  
+}
+
+
+.activityDetails{
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    width: 100%;
+    margin-left: 15% !important;
+
+}
+
+.activityDetailsTitle{
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+
+}
+
+
+.activityDetailsType{
+    // margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    color: grey !important;
+    width: max-content;
+}
+
+.commentButton{
+    direction: flex;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 12px;
+    border-radius: 0px;
+    background-color: #81da3d !important;
+    padding: 0 7px;
+    color: #fff;
+    border: none;
+ 
+
+}
+
+.commentButton:hover{
+     background-color: #76e621 !important;
+}
+
+.likeButton{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 0px;
+    background-color: #31a4d9 !important;
+    padding: 0 7px;
+    color: #fff;
+    border: none;
+
+}
+
+.likeButton:hover{
+    background-color: #1285bb !important;
+    cursor: pointer;
+    
+   
+
+}
+
+.rightAngle{
+    margin-top: 40px !important;
+    color: rgb(165, 164, 164) !important;
+    margin-right: 10px;
+}
+
+
+.rightDiv{
+position: absolute;
+right: 0px;
+}
+
+.fifth{
+    background-color: white;
+}
+
+
+
+.addActivityRight{
+  
+    margin-left: 85px !important;
+    
+}
+
+
+.activityList{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+
+}
+
+
+
+.commentBox {
+    display: flex;
+    flex-direction: column !important;
+    border-radius: 10px !important;
+    max-width: 400px !important;
+    margin-left: 42%;
+    box-shadow: 0 0 8px rgba(7, 85, 202, 0.2) !important;
+    overflow: hidden;
+    padding: 14px;
+    max-height: 100px !important;
+}
+
+
+
+
+.postComment{
+    margin-left: 170px !important;
+     background-color: #81da3d !important;
+     line-height: 10px !important;
+      font-weight: bold;
+}
+
+
+.postComment:hover {
+     background-color: #75e420 !important;
+}
+
+
+.renderComment{
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 30px;
+    padding-left: 80px;
+  
+}
+
+.renderCommentPic{
+     margin-bottom: 10px;
+     padding-right: 7px !important;
+    //  margin-left: 100px !important;
+
+}
+
+.renderCommentText{
+//  margin-left: 5px;
+ font-size: 12px !important;
+ padding-top: 3.5px;
+ padding-left: 4px;
+ color: rgb(75, 75, 75);
+}
+// .is-three-fifths{
+  
+//     // width: 90% !important;
+  
+ 
+// }
+
+.feedColumn{
+  
+    width: 52% !important;
+    margin-left: 25% !important;
+    margin-top: -1.5%;
+}
+
+html{
+    // background-color: #dadada;
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23DADADA' stroke-width='1.7' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
+  background-color: #dadada !important;
+// background-color: #D6D6D6;
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='338' height='40.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23DADADA' stroke-width='25' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+// background-color: #D2D2D2;
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23DADADA' stroke-width='3.9' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+// background-color: #D2D2D2;
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23DADADA' stroke-width='25' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.fa-github{
+      color: rgb(13, 132, 230);
+    font-size: 50px;
+    padding-right: 10px;
+     padding-bottom: 7%;
+
+
+}
+
+.fa-linkedin-in{
+     color: rgb(13, 132, 230);
+    font-size: 50px;
+     padding-right: 10px;
+      padding-bottom: 7%;
+
+
+}
+
+.fa-user{
+    position: fixed;
+      color: rgb(13, 132, 230);
+    font-size: 50px;
+     padding-right: 10px;
+     padding-bottom: 7%;
+
+}
