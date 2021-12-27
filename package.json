@@ -20,6 +20,8 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.5",
     "babel-loader": "^8.2.3",
     "jquery": "^3.6.0",
     "react": "^17.0.2",

@@ -1,0 +1,95 @@
+.usersBox{
+    margin-top: 40px;
+}
+
+span {
+    color: grey !important;
+}
+
+.is-active {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    border-bottom: none !important;
+}
+
+.iconActive {
+    color: #31a4d9 !important;
+}
+.user-tabs {
+    background-color:#f0f0f0;
+}
+
+.user-overview {
+    border-right: 1px solid #efefef;
+}
+
+.userProfileColumn{
+    background-color: white;
+    width: 70% !important;
+    margin-left: 10% !important;
+
+}
+
+.appColumn{
+    width: 50% !important;
+
+}
+
+.profileDashboard {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.leftContainer {
+    min-height: 700px;
+    float: left;
+    border-right: 1px solid #e9e9e9;
+   
+    margin-right: 2%;
+  padding-right: 14%;
+}
+
+.dashboardActivityTotal {
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.navList li .navListLabel {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+
+.profileHeart{
+    font-size: 25px;
+
+}
+
+.road{
+    font-size: 25px;
+}
+
+.stopwatch{
+    font-size: 25px;
+
+}
+
+.cals{
+    font-size: 25px;
+
+}
+
+.tabs ul {
+        padding-left: 8%;
+}
+
+.Stats{
+    font-size: 20px;
+    padding-left: 35%;
+    padding-top: 20%;
+}
